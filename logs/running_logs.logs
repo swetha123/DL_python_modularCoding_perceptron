@@ -1,0 +1,163 @@
+[2023-11-04 16:45:33,954: INFO: or]: starting training:
+[2023-11-04 16:45:34,020: INFO: or]: this is the raw dataset:    x1  x2  y
+0   0   0  0
+1   0   1  1
+2   1   0  1
+3   1   1  1:
+[2023-11-04 16:45:34,020: INFO: all_utils]: preparing the data for training:
+[2023-11-04 16:45:34,021: INFO: model]: initial weights before weights: 
+[ 1.61970436e-04 -5.84040819e-05  8.74794884e-05]:
+[2023-11-04 16:45:34,022: INFO: model]: X with bias: 
+[[ 0.  0. -1.]
+ [ 0.  1. -1.]
+ [ 1.  0. -1.]
+ [ 1.  1. -1.]]:
+[2023-11-04 16:45:34,022: INFO: model]: --------------------:
+[2023-11-04 16:45:34,022: INFO: model]: for  epoch >> 0:
+[2023-11-04 16:45:34,022: INFO: model]: --------------------:
+[2023-11-04 16:45:34,022: INFO: model]: predicted value after forward pass:  
+[0 0 1 1]:
+[2023-11-04 16:45:34,025: INFO: model]: error: 
+0    0
+1    1
+2    0
+3    0
+Name: y, dtype: int64:
+[2023-11-04 16:45:34,025: INFO: model]: updated weights after epoch: 1/10: 
+ [ 0.00016197  0.0999416  -0.09991252]:
+[2023-11-04 16:45:34,025: INFO: model]: ####################:
+[2023-11-04 16:45:34,025: INFO: model]: --------------------:
+[2023-11-04 16:45:34,025: INFO: model]: for  epoch >> 1:
+[2023-11-04 16:45:34,026: INFO: model]: --------------------:
+[2023-11-04 16:45:34,026: INFO: model]: predicted value after forward pass:  
+[1 1 1 1]:
+[2023-11-04 16:45:34,026: INFO: model]: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2023-11-04 16:45:34,026: INFO: model]: updated weights after epoch: 2/10: 
+ [1.61970436e-04 9.99415959e-02 8.74794884e-05]:
+[2023-11-04 16:45:34,026: INFO: model]: ####################:
+[2023-11-04 16:45:34,027: INFO: model]: --------------------:
+[2023-11-04 16:45:34,027: INFO: model]: for  epoch >> 2:
+[2023-11-04 16:45:34,027: INFO: model]: --------------------:
+[2023-11-04 16:45:34,027: INFO: model]: predicted value after forward pass:  
+[0 1 1 1]:
+[2023-11-04 16:45:34,027: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2023-11-04 16:45:34,028: INFO: model]: updated weights after epoch: 3/10: 
+ [1.61970436e-04 9.99415959e-02 8.74794884e-05]:
+[2023-11-04 16:45:34,028: INFO: model]: ####################:
+[2023-11-04 16:45:34,028: INFO: model]: --------------------:
+[2023-11-04 16:45:34,028: INFO: model]: for  epoch >> 3:
+[2023-11-04 16:45:34,028: INFO: model]: --------------------:
+[2023-11-04 16:45:34,028: INFO: model]: predicted value after forward pass:  
+[0 1 1 1]:
+[2023-11-04 16:45:34,028: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2023-11-04 16:45:34,029: INFO: model]: updated weights after epoch: 4/10: 
+ [1.61970436e-04 9.99415959e-02 8.74794884e-05]:
+[2023-11-04 16:45:34,029: INFO: model]: ####################:
+[2023-11-04 16:45:34,029: INFO: model]: --------------------:
+[2023-11-04 16:45:34,029: INFO: model]: for  epoch >> 4:
+[2023-11-04 16:45:34,029: INFO: model]: --------------------:
+[2023-11-04 16:45:34,029: INFO: model]: predicted value after forward pass:  
+[0 1 1 1]:
+[2023-11-04 16:45:34,029: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2023-11-04 16:45:34,030: INFO: model]: updated weights after epoch: 5/10: 
+ [1.61970436e-04 9.99415959e-02 8.74794884e-05]:
+[2023-11-04 16:45:34,030: INFO: model]: ####################:
+[2023-11-04 16:45:34,030: INFO: model]: --------------------:
+[2023-11-04 16:45:34,030: INFO: model]: for  epoch >> 5:
+[2023-11-04 16:45:34,030: INFO: model]: --------------------:
+[2023-11-04 16:45:34,030: INFO: model]: predicted value after forward pass:  
+[0 1 1 1]:
+[2023-11-04 16:45:34,030: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2023-11-04 16:45:34,031: INFO: model]: updated weights after epoch: 6/10: 
+ [1.61970436e-04 9.99415959e-02 8.74794884e-05]:
+[2023-11-04 16:45:34,031: INFO: model]: ####################:
+[2023-11-04 16:45:34,031: INFO: model]: --------------------:
+[2023-11-04 16:45:34,031: INFO: model]: for  epoch >> 6:
+[2023-11-04 16:45:34,031: INFO: model]: --------------------:
+[2023-11-04 16:45:34,031: INFO: model]: predicted value after forward pass:  
+[0 1 1 1]:
+[2023-11-04 16:45:34,032: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2023-11-04 16:45:34,032: INFO: model]: updated weights after epoch: 7/10: 
+ [1.61970436e-04 9.99415959e-02 8.74794884e-05]:
+[2023-11-04 16:45:34,032: INFO: model]: ####################:
+[2023-11-04 16:45:34,032: INFO: model]: --------------------:
+[2023-11-04 16:45:34,032: INFO: model]: for  epoch >> 7:
+[2023-11-04 16:45:34,032: INFO: model]: --------------------:
+[2023-11-04 16:45:34,033: INFO: model]: predicted value after forward pass:  
+[0 1 1 1]:
+[2023-11-04 16:45:34,033: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2023-11-04 16:45:34,034: INFO: model]: updated weights after epoch: 8/10: 
+ [1.61970436e-04 9.99415959e-02 8.74794884e-05]:
+[2023-11-04 16:45:34,034: INFO: model]: ####################:
+[2023-11-04 16:45:34,034: INFO: model]: --------------------:
+[2023-11-04 16:45:34,034: INFO: model]: for  epoch >> 8:
+[2023-11-04 16:45:34,034: INFO: model]: --------------------:
+[2023-11-04 16:45:34,034: INFO: model]: predicted value after forward pass:  
+[0 1 1 1]:
+[2023-11-04 16:45:34,035: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2023-11-04 16:45:34,036: INFO: model]: updated weights after epoch: 9/10: 
+ [1.61970436e-04 9.99415959e-02 8.74794884e-05]:
+[2023-11-04 16:45:34,036: INFO: model]: ####################:
+[2023-11-04 16:45:34,036: INFO: model]: --------------------:
+[2023-11-04 16:45:34,036: INFO: model]: for  epoch >> 9:
+[2023-11-04 16:45:34,036: INFO: model]: --------------------:
+[2023-11-04 16:45:34,036: INFO: model]: predicted value after forward pass:  
+[0 1 1 1]:
+[2023-11-04 16:45:34,037: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2023-11-04 16:45:34,037: INFO: model]: updated weights after epoch: 10/10: 
+ [1.61970436e-04 9.99415959e-02 8.74794884e-05]:
+[2023-11-04 16:45:34,037: INFO: model]: ####################:
+[2023-11-04 16:45:34,038: INFO: model]: 
+ total loss: 0
+:
+[2023-11-04 16:45:34,040: INFO: model]: model is saved at model\or.model:
+[2023-11-04 16:45:34,040: INFO: all_utils]: preparing the data for training:
+[2023-11-04 16:45:34,041: INFO: all_utils]: creatig the base plot:
+[2023-11-04 16:45:34,289: INFO: all_utils]: ploting the decision region :
+[2023-11-04 16:45:34,411: INFO: all_utils]: saving the plot at plots\or.png:
+[2023-11-04 16:45:34,411: INFO: or]: done training:
